@@ -1,0 +1,35 @@
+[
+  {
+    "input": ["action", "1h", "online"],
+    "output": ["The Batman Chronicles(2014)"]
+  },
+  { "input": ["action", "2h", "online"], "output": ["Deadpool(2016)"] },
+  { "input": ["action", "3h", "online"], "output": ["Seven Samurai(1954)"] },
+  {
+    "input": ["adventure", "1h", "online"],
+    "output": "The Adventures of Tom Sawyer(1938)"
+  },
+  { "input": ["adventure", "2h", "online"], "output": ["The Revenant(2015)"] },
+  { "input": ["adventure", "3h", "online"], "output": ["Interstellar(2014)"] },
+  { "input": ["comedy", "1h", "online"], "output": ["Dumbo(1941)"] },
+  { "input": ["comedy", "2h", "online"], "output": ["Deadpool(2016)"] },
+  {
+    "input": ["comedy", "3h", "online"],
+    "output": "The Blues Brothers (1980)"
+  },
+  { "input": ["drama", "1h", "online"], "output": ["The Phone Call(2013)" ]},
+  { "input": ["drama", "2h", "online"], "output": ["Bohemian Rhapsody(2018)"] },
+  { "input": ["drama", "3h", "online"], "output": ["Gone With the Wind(1939)"] },
+  { "input": ["horror", "1h", "online"], "output": ["Childs Play(1988)"] },
+  { "input": ["horror", "2h", "online"], "output": ["It(2017)"] },
+  { "input": ["horror", "3h", "online"], "output": ["The Beach House(2020)"] },
+  { "input": ["Sci-Fi", "3h", "online"], "output": ["ARQ(2016)"] },
+  {
+    "input": ["Sci-Fi", "3h", "online"],
+    "output": ["Spider-Man:Homecoming(2017)"]
+  },
+  {
+    "input": ["Sci-Fi", "3h", "online"],
+    "output": ["Black Mirror:Bandersnatch(2018)"]
+  }
+]
