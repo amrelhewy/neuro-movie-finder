@@ -4,9 +4,13 @@ const cors=require('cors');
 const brain=require('brain.js');
 const data=require('./data.json')
 const net = new brain.recurrent.LSTM({outputSize:4});
+let trainingData;
+ async function trainer(){
+    let data=await net.train(data,{iterations:2000,log:stats=>console.log(stats)})
+    return data;
+}
+trainingData= trainer();
 
-let trainingData=net.train(data,{iterations:2000,log:stats=>console.log(stats)})
-console.log(trainingData)
 
 const PORT=process.env.PORT || 5000;
 app.use(express.json());
